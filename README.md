@@ -1,51 +1,35 @@
-# Pico Display & Capacitive Button Project
+<<<<<<< HEAD
 
-This is a MicroPython project for the Raspberry Pi Pico that demonstrates how to control an ST7789 SPI display and interact with a capacitive touch button.
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/04f89085-2968-45d1-a7f2-61a41e572abd" />
 
-## Features
+✨ Pico & MicroPython Studies
+This repository is a collection of my personal studies and projects using MicroPython. The primary goal is to explore the capabilities of MicroPython on the Raspberry Pi Pico W and document the learning process, including hardware pinout and usage.
 
-- Drives a 160x128 ST7789 SPI display in landscape mode.
-- Toggles the onboard LED with each press of a capacitive touch button.
-- Displays a large, scrolling message ("LED ON" or "LED OFF") on the screen.
-- Cycles through a set of background colors (blue, red, green, magenta) with each button press.
-- The screen holds the new background color after the text animation finishes, waiting for the next input.
+💻 Hardware Used
+All projects in this repository are developed and tested exclusively on the Raspberry Pi Pico W. This board is a low-cost, high-performance microcontroller with an RP2040 chip and integrated 2.4 GHz Wi-Fi, making it an excellent platform for Internet of Things (IoT) and embedded applications.
 
-## Hardware Requirements
+🔌 Pinout
+The Raspberry Pi Pico W features a comprehensive set of GPIO pins. The pinout below highlights some of the most commonly used pins for general purpose input/output, PWM, I2C, SPI, and UART communication.
 
-- Raspberry Pi Pico or Pico W
-- ST7789 IPS Display (e.g., 1.14 inch, 160x128, SPI)
-- Capacitive Touch Button (e.g., a TTP223 module)
-- Jumper wires
+GP (GPIO) Pins: These are the general purpose digital pins.
 
-## Wiring
+ADC Pins (GP26-GP28): Used for analog-to-digital conversion, perfect for reading values from analog sensors.
 
-### ST7789 Display
+3V3 (OUT): A 3.3V regulated power output.
 
-| Display Pin | Pico Pin | Description      |
-|-------------|----------|------------------|
-| VCC         | 3V3 (OUT)| Power            |
-| GND         | GND      | Ground           |
-| SCL/SCK     | GP18     | SPI Clock        |
-| SDA/MOSI    | GP19     | SPI Data Out     |
-| RES/RST     | GP20     | Reset            |
-| DC          | GP21     | Data/Command     |
-| CS          | GP17     | Chip Select      |
-| BLK/BL      | GP22     | Backlight Control|
+VBUS: The 5V from the USB connection, great for powering external components.
 
-### Capacitive Touch Button
+GND: Ground pins.
 
-| Button Pin | Pico Pin | Description      |
-|------------|----------|------------------|
-| VCC        | 3V3 (OUT)| Power            |
-| GND        | GND      | Ground           |
-| SIG/OUT    | GP0      | Signal Output    |
+🚀 Getting Started
+To use the code in this repository, you will need:
 
-*Note: The script uses `GP0` for the button. You can change this pin in the code if needed.*
+A Raspberry Pi Pico W board.
 
-## How to Use
+The official MicroPython firmware flashed onto your board.
 
-1.  Flash the latest version of MicroPython onto your Raspberry Pi Pico.
-2.  Copy the `test_display_color.py` file to the Pico's filesystem (e.g., using Thonny IDE).
-3.  Connect the hardware as described in the wiring section.
-4.  Run the script from a MicroPython REPL (like in Thonny).
-5.  Touch the capacitive button to see the LED and the display react.
+A code editor like VS Code with the necessary MicroPython extensions.
+
+🤝 Contributions
+This repository is for personal use, but if you find any bugs or have suggestions, feel free to open an issue or submit a pull request.
+>>>>>>> c0ec9f234707e5906994a414efe70a2b0034a286
