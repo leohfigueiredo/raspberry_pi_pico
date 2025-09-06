@@ -1,3 +1,5 @@
+
+
 ✨ Pico & MicroPython Studies
 This repository is a collection of my personal studies and projects using MicroPython. The primary goal is to explore the capabilities of MicroPython on the Raspberry Pi Pico W and document the learning process, including hardware pinout and usage.
 
