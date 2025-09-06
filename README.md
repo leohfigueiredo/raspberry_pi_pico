@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/04f89085-2968-45d1-a7f2-61a41e572abd" />
 
 ✨ Pico & MicroPython Studies
@@ -32,4 +30,4 @@ A code editor like VS Code with the necessary MicroPython extensions.
 
 🤝 Contributions
 This repository is for personal use, but if you find any bugs or have suggestions, feel free to open an issue or submit a pull request.
->>>>>>> c0ec9f234707e5906994a414efe70a2b0034a286
+
