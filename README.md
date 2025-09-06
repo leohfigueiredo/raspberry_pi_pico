@@ -1,4 +1,4 @@
-
+<img width="1024" height="1024" alt="Image" src="https://github.com/user-attachments/assets/04f89085-2968-45d1-a7f2-61a41e572abd" />
 
 ✨ Pico & MicroPython Studies
 This repository is a collection of my personal studies and projects using MicroPython. The primary goal is to explore the capabilities of MicroPython on the Raspberry Pi Pico W and document the learning process, including hardware pinout and usage.
